@@ -1,0 +1,15 @@
+.wrapper {
+    font-family: 'Pacifico', cursive;
+    margin: 100px auto;
+    text-align: center;
+    max-width: 500px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:nth-child(2) {
+    color: gold;
+}
