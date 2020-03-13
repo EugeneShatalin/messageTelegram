@@ -55,3 +55,4 @@ yarn-error.log*
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+/src/components/.idea
