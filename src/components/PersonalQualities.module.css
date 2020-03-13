@@ -10,6 +10,6 @@ ul {
     list-style-type: none;
 }
 
-li:nth-child(2) {
+.twoElem {
     color: gold;
 }
