@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.module.css';
-import Message from './components/Message';
-import s from './App.module.css';
-import NameUser from "./components/NameUser";
-import PersonalQualities from "./components/PersonalQualities";
+import Message from './components/Message/Message';
+import NameUser from "./components/NameUser/NameUser";
+import PersonalQualities from "./components/PersonalQualities/PersonalQualities";
+import Input from "./components/Input/Input";
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
             <NameUser/>
             <Message/>
             <PersonalQualities tasks={tasks}/>
+            <Input/>
         </div>
 
     );
